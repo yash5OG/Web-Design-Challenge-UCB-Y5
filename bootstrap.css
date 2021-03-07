@@ -203,6 +203,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  background-color: rgb(169, 118, 255);
 }
 
 svg {
