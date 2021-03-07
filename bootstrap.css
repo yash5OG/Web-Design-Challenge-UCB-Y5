@@ -68,7 +68,7 @@ body {
   line-height: 1.5;
   color: #fff;
   text-align: left;
-  background-color: #222;
+  background-color: #222; 
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10507,4 +10507,24 @@ a.text-dark:hover, a.text-dark:focus {
 
 .list-group-item-action .list-group-item-heading {
   color: #fff;
+}
+
+
+.footer{
+  padding: 0.75rem 1.25rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+	background-color: #55555; 
+    border-top-style: solid; 
+    border-top-width: 4px; 
+    border-top-color: rgb(69, 69, 169);
+    color: rgb(69, 69, 169); 
+    min-height: 69px; 
+    font-family: Georgia, Verdana;
+    font-size: 13px; 
+    text-align: center; 
+    position: fixed;
+    padding-top: 13px; 
+	width: 100%;
+	left: 0;
+	bottom: 0;
 }
