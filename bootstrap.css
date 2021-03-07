@@ -485,8 +485,8 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #222;
-  border: 1px solid #dee2e6;
+  background-color: rgb(255, 255, 255);
+  border: 3.69px solid #7837b6;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -558,6 +558,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  display: inline-block;
 }
 
 @media (min-width: 576px) {
@@ -10512,19 +10513,20 @@ a.text-dark:hover, a.text-dark:focus {
 
 .footer{
   padding: 0.75rem 1.25rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 1px dotted rgba(0, 0, 0, 0.125);
 	background-color: #55555; 
-    border-top-style: solid; 
-    border-top-width: 4px; 
+    border-top-style: dotted; 
+    border-top-width: 1px; 
     border-top-color: rgb(69, 69, 169);
     color: rgb(69, 69, 169); 
     min-height: 69px; 
     font-family: Georgia, Verdana;
     font-size: 13px; 
-    text-align: center; 
+    text-align: left; 
     position: fixed;
     padding-top: 13px; 
 	width: 100%;
 	left: 0;
 	bottom: 0;
+  display: inline-block;
 }
