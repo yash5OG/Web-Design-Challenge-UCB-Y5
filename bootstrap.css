@@ -10836,3 +10836,12 @@ body {
   font-size: inherit;
   
 }
+
+#img-thumbnail {
+  padding: 0.25rem;
+  background-color:  rgb(169, 118, 255);;
+  border: 3.69px solid rgb(5, 169, 25);
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
